@@ -5,7 +5,7 @@ Usage:
 bash <(curl [https://raw.githubusercontent.com/powermx/adguard/main/install)
 ```
 
-### Adguard
+### Info
 
 > Telegram: https://t.me/PowerMX 
 ----
