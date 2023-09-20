@@ -2,9 +2,10 @@
 
 Usage:
 ```
-bash <(curl [https://raw.githubusercontent.com/powermx/zivpnremover/main/uninstall.sh](https://raw.githubusercontent.com/powermx/adguard/main/install))
+bash <(curl [https://raw.githubusercontent.com/powermx/adguard/main/install)
 ```
 
 ### Adguard
 
-> PowerMX
+> Telegram: PowerMX
+> Website : https://powermx.org
