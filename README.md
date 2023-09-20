@@ -1,22 +1,20 @@
 # `Adguard Installer` 
 
- *  [Installer](#install)
-Usage:
+[Installer](#install)
+Uso:
 ```
 bash <(curl [https://raw.githubusercontent.com/powermx/adguard/main/install)
 ```
 
 ### Info
 
-*  [Options](#options)
+[Options](#options)
 ----
 Options
 AdGuardHome -s start|stop|restart|status|install|uninstall
 
-*  [Ref](#ref)
+[Referencias](#ref)
 
-> Telegram: https://t.me/PowerMX 
-----
-> Website : https://powermx.org
+> Telegram: https://t.me/PowerMX | Website : https://powermx.org
 ----
 Referencia: | https://github.com/AdguardTeam/AdGuardHome
