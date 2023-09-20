@@ -8,9 +8,8 @@ Uso:
 bash <(curl [https://raw.githubusercontent.com/powermx/adguard/main/install)
 ```
 
-### Info
+### Info | [Options](#options)
 
-[Options](#options)
 ----
 Options
 AdGuardHome -s start|stop|restart|status|install|uninstall
