@@ -1,8 +1,8 @@
 &nbsp;
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="doc/adguard_home_darkmode.svg">
-        <img alt="AdGuard Home" src="doc/adguard_home_lightmode.svg" width="300px">
+        <source media="(prefers-color-scheme: dark)" srcset="img/adguard_home_darkmode.svg">
+        <img alt="AdGuard" src="img/adguard_home_lightmode.svg" width="300px">
     </picture>
 </p>
 
