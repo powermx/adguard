@@ -5,6 +5,7 @@
         <img alt="AdGuard Home" src="doc/adguard_home_lightmode.svg" width="300px">
     </picture>
 </p>
+
 # `Adguard Installer` 
 
 
