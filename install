@@ -1,0 +1,40 @@
+#!/bin/bash
+IP=$(curl -s -4 icanhazip.com)
+RED=$(ip -4 route ls|grep default|grep -Po '(?<=dev )(\S+)'|head -1)
+echo "
+              _                           _
+     /\      | |                         | |
+    /  \   __| | __ _ _   _  __ _ _ __ __| |
+   / /\ \ / _\` |/ _\` | | | |/ _\` | '__/ _\` |
+  / ____ \ (_| | (_| | |_| | (_| | | | (_| |
+ /_/    \_\__,_|\__, |\__,_|\__,_|_|  \__,_|
+                 __/ |                      
+                |___/   http://t.me/PowerMX
+"
+
+echo -e " ───────── /// ────────── "
+echo "Instalador de Servidor Adguard Home"
+cd /root 1> /dev/null 2> /dev/null
+echo "Descargando Paquetes"
+curl -sLO https://github.com/AdguardTeam/AdGuardHome/releases/latest/download/AdGuardHome_linux_amd64.tar.gz 
+tar -vxf AdGuardHome_linux_amd64.tar.gz 1> /dev/null 2> /dev/null
+echo "Moviendo archivos"
+mkdir /opt/AdGuardHome 1> /dev/null 2> /dev/null
+mv ~/AdGuardHome/AdGuardHome /opt/AdGuardHome/ 1> /dev/null 2> /dev/null
+echo "Estableciendo permisos"
+chown -R root:root /opt/AdGuardHome 1> /dev/null 2> /dev/null
+chmod -R o-rwx /opt/AdGuardHome 1> /dev/null 2> /dev/null
+echo "Instalando"
+/opt/AdGuardHome/AdGuardHome -s install 1> /dev/null 2> /dev/null
+echo "Limpiando"
+rm /root/AdGuardHome_linux_amd64.tar.gz 1> /dev/null 2> /dev/null
+echo -e " ───────── /// ────────── "
+echo "Su servidor Local de Adguard ha sido instalado en:"
+echo "URL: http://$IP:3000"
+echo " "
+echo "Ingrese en la URL en su navegador, cree su Usuario y Contraseña"
+echo "Configure su dispositivo de Red en : $RED"
+echo " "
+echo "La IP a usar como DNS para combatir el SPAM es:"
+echo "$IP"
+echo -e " ───────── /// ────────── "
