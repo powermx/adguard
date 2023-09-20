@@ -1,4 +1,4 @@
-&nbsp;
+&nbsp; 
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="img/adguard_home_darkmode.svg">
