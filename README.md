@@ -7,6 +7,6 @@ bash <(curl [https://raw.githubusercontent.com/powermx/adguard/main/install)
 
 ### Adguard
 
-> Telegram: PowerMX 
+> Telegram: https://t.me/PowerMX 
 ----
 > Website : https://powermx.org
