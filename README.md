@@ -1,8 +1,7 @@
 # `Adguard Installer` 
 
 
-###Instalador
-[Installer](#installer)
+### Instalador | [Installer](#installer)
 
 Uso:
 ```
