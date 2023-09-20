@@ -1,6 +1,7 @@
 # `Adguard Installer` 
 
-[Installer](#install)
+[Installer](#installer)
+
 Uso:
 ```
 bash <(curl [https://raw.githubusercontent.com/powermx/adguard/main/install)
